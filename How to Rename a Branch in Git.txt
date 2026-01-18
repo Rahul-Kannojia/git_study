@@ -1,0 +1,15 @@
+How to Rename a Branch in Git 
+Step 1: Make sure you are in the root directory for your project
+You will first need to open up your terminal and then cd (change directory) to the root of your project.
+
+Step 2: Go to the branch you want to rename
+We can use the git checkout command to switch to another branch.
+
+          git checkout branch-name
+
+Step 3: Use the -m flag to change the name of the branch
+This is what the command would look like to change the name of the branch:
+
+            git branch -m new-branch-name
+
+You can use git status to see your new branch name.

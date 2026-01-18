@@ -1,0 +1,18 @@
+
+ls
+nano demo.txt
+Edit the file
+ctrl+O --> Enter--> ctrl+X
+git status--> file name in Red Colour(untracked file) 
+git add . or git add "<file name>"
+git commit -m "<message>"
+git status
+git log
+
+
+git commit (if we did not given commit message, then a window will open to write message)
+ write meassage on that window ---> press "Esc"--> press ":wq" --> we will reach to previous window
+ 
+ 
+git log---> check the commitsS
+

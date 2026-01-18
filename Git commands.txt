@@ -1,0 +1,150 @@
+Date: 23/Sept/2025
+
+cd oneDrive/Desktop
+
+mkdir Magicalproject
+
+cd Magicalproject
+
+git init
+
+touch demo1.txt
+
+nano demo1.txt
+
+cat demo1.txt
+
+git status
+
+git add demo1.txt
+
+git config user.name "john"
+
+git config user.email "john@gmail.com"
+
+git commit -m "1st Commit"
+
+git log
+
+git log --oneline
+
+git checkout <commit id>
+
+git remote add origin https://github.com/magicallokah/RCBREPO.git
+
+git push origin master
+
+git remote -v
+
+git branch b1
+
+git branch
+
+git branch b2
+
+git checkout b1
+
+touch demo2.txt
+
+nano demo2.txt
+
+git add demo2.txt
+
+git commit -m "b1 1st commit"
+
+git push orgin b1
+=============================================================================
+
+Date: 24/Sept/2025
+
+Rahul Kannojia (You) 08:15 AM 
+please paste here
+Akbar 08:16 AM 
+mkdir git-demo
+
+cd git-demo
+
+git init
+
+
+echo "Hello from git">demo1.txt
+
+git add demo1.txt
+
+git commit -m "1st commit"
+
+
+echo "Added 2nd line">>demo1.txt
+
+git add demo1.txt
+
+git commit -m "2nd commit"
+
+
+echo "Added 3rd line>>demo1.txt
+
+git add demo1.txt
+
+git commit -m " 3rd commit"
+
+
+echo "Added 4th line">>demo1.txt
+
+git add demo1.txt
+
+git commit -m "4th commit"
+
+
+git log --oneline
+
+
+git branch b1
+
+git branch b2
+
+
+git checkout b1
+
+
+echo "b1 1st line">demo2.txt
+
+git add demo2.txt
+
+git commit -m "b1 1st commit"
+
+
+echo "b1 2nd line">>demo2.txt
+
+git add demo2.txt
+
+git commit -m "b1 2nd commit"
+
+
+git log --oneline
+
+
+git checkout master
+
+
+git merge b1
+
+git log 
+---------------
+
+git remote add origin <URL>
+
+
+git fetch origin 
+
+
+git push origin master
+
+
+git push origin b1
+
+
+git push origin b2
+
+git pull origin master
+
+git push origin master

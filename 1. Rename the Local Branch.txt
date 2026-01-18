@@ -1,0 +1,22 @@
+1. Rename the Local Branch:
+If you are on the branch you want to rename
+    git branch -m new-branch-name
+(The -m flag stands for "move" or "rename")
+
+If you are on a different branch
+    git branch -m old-branch-name new-branch-name
+
+2.Update the Remote Repository
+ Push the new branch to the remote
+       git push origin -u new-branch-name
+(The -u flag sets the upstream tracking branch for the new branch)
+
+Delete the old branch from the remote:
+    git push origin --delete old-branch-name
+Example:
+To rename a local branch named feature/old-name to feature/new-name and update the remote:
+
+Push the new branch to the remote and set upstream: 
+    git push origin -u feature/new-name
+Delete the old branch from the remote:
+    git push origin --delete feature/old-name
